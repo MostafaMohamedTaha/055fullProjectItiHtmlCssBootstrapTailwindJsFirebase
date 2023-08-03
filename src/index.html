@@ -19,21 +19,29 @@
 
 <body>
     <!--==================== HEADER ====================-->
-    <section id="header">
+    <section class="bg-green-500 flex grid-cols-6 p-5 justify-around">
         <!--======== NAVBAR ==========-->
-        <a href="./index.html"><img src="./img/favicon.png" alt="" class="logo flex justify-center">
-            <span class="text-white hover:scale-105">Go Green</span>
-        </a>
-        
+        <div class="flex justify-center col-span-2">
+            <a href="./index.html"><img src="./img/favicon.png" alt="" class="text-4xl w-[1em] ">
+            </a>
+            <span class="text-white hover:scale-105 ml-3 text-4xl">Go Green</span>
+        </div>
+
         <!-- ((((((((((((((((start nav)))))))))))))))) -->
-        <nav>
-            <ul id="navbar" >
-                <li class="hover:scale-105 hover:text-lime-50 focus:text-lime-100" ><a   class="active" href="./index.html">Home</a></li>
-                <li class="hover:scale-105 hover:text-lime-50 focus:text-lime-100" ><a  href="./pages/shop.html">Shop</a></li>
-                <li class="hover:scale-105 hover:text-lime-50 focus:text-lime-100" ><a  href="./pages/blog.html">Blog</a></li>
-                <li class="hover:scale-105 hover:text-lime-50 focus:text-lime-100" ><a  href="./pages/about.html">About</a></li>
-                <li class="hover:scale-105 hover:text-lime-50 focus:text-lime-100" ><a  href="./pages/cart.html">Contact</a></li>
-                <li class="hover:scale-105 hover:text-lime-50 focus:text-lime-100" ><a  id="lg-bag" href="./pages/userCart.html"><i class="far fa-shopping-bag"></i></a></li>
+        <nav class="flex col-span-4">
+            <ul id="navbar" class=" flex justify-center list-none text-3xl text-white hover:text-3xl">
+                <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block"><a class="active"
+                        href="./index.html">Home</a></li>
+                <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block e"><a href="./pages/shop.html">Shop</a>
+                </li>
+                <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block e"><a href="./pages/blog.html">Blog</a>
+                </li>
+                <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block focusborder focus:underlinet"><a
+                        href="./pages/about.html">About</a></li>
+                <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block e"><a
+                        href="./pages/cart.html">Contact</a></li>
+                <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block e"><a id="lg-bag"
+                        href="./pages/userCart.html"><i class="far fa-shopping-bag"></i></a></li>
                 <a href="#" id="close"><i class="far fa-times"></i></a>
             </ul>
         </nav>
@@ -47,20 +55,24 @@
         <!-- ((((((((((((((((end mobileIcon)))))))))))))))) -->
     </section>
     <!--==================== HOME ====================-->
-    <section id="headerInfo" class="">
+    <section class="flex justify-center p-3 grid-cols-2  mx-auto">
         <!-- ((((((((((((((((start header)))))))))))))))) -->
-        <header id="headerInfoHead">
-            <h1>Plants will make <br>your life better</h1>
+        <header id="headerInfoHead" class="col-span-1 m-3">
+            <h1 class="text-5xl text-green-600">Plants will make your life better</h1>
             <br>
-            <h4>Create incredible plant design <br>for your offices or apartments.<br> Add fresness to your new ideas.
+            <h4 class="text-4xl">
+                Create incredible plant design <br>
+                for your offices or apartments.<br>
+                Add freshness to your new ideas.
             </h4>
             <br>
-            <button>Explore</button>
+            <button class="bg-green-500 px-8 py-5 rounded-2xl text-5xl  text-white mt-6">Explore</button>
+
         </header>
         <!-- ((((((((((((((((end header)))))))))))))))) -->
         <!-- ((((((((((((((((start header img)))))))))))))))) -->
-        <div>
-            <img src="./img/home.png" alt="" class="hero-img">
+        <div class="col-span-1 m-3">
+            <img src="./img/home.png" alt="" class="w-[30em] h-[30em] mt-[3em] ml-[4em] md:block hidden">
         </div>
         <!-- ((((((((((((((((end header img)))))))))))))))) -->
     </section>
