@@ -1,4 +1,3 @@
-
 /* Header start*/
 #header {
   width: 100%;
@@ -9,7 +8,7 @@
   background: #27643c;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -36,21 +35,10 @@
 #headerInfo h4 {
   padding-bottom: 15px;
 }
+
 #headerInfo h1 {
   color: #0c7c42;
 }
-
-
-
-
-/* start Media Query*/
-
-  
-
-/* end home page  */
-/* ***************************************************** */
-
-
 
 /* single product */
 #productDetails {
@@ -67,6 +55,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .small-img-col {
   flex-basis: 20%;
   cursor: pointer;
@@ -90,6 +79,7 @@
   padding: 5px 10px;
   margin-bottom: 10px;
 }
+
 #productDetails .single-pro-details input {
   width: 50px;
   height: 47px;
@@ -97,6 +87,7 @@
   font-size: 16px;
   margin-right: 10px;
 }
+
 #productDetails .single-pro-details input:focus {
   outline: none;
 }
@@ -106,6 +97,447 @@
   color: #fff;
   padding: 15px;
 }
+
 #productDetails .single-pro-details span {
   line-height: 25px;
+}
+
+/*? ((((((((((((((((((((mohamed style)))))))))))))))))))) */
+
+/* ((((((((((((((((((((((start products)))))))))))))))))))))) */
+/* button */
+.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+
+#product1 {
+  text-align: center;
+
+}
+
+#product1 .Pro-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+#product1 .pro {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #27643c;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+#product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.1);
+}
+
+#product1 .pro img {
+  position: relative;
+  width: 120px;
+  justify-self: center;
+  margin-bottom: var(--mb-0-75);
+  transition: .3s;
+}
+
+#product1 .pro .des {
+  text-align: start;
+  padding: 10px 0;
+}
+
+#product1 .pro .des span {
+  color: #606063;
+  font-size: 12px;
+}
+
+#product1 .pro .des h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+#product1 .pro .des i {
+  font-size: 12x;
+  color: rgb(243, 181, 25);
+}
+
+#product1 .pro .des h4 {
+  padding: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #27643c;
+}
+
+#product1 .pro .cart {
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #e8f6ea;
+  font-weight: 500;
+  color: #27643c;
+  border: 1px solid #27643c;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+#product1 .pro .cart:hover {
+  background-color: #27643c;
+  color: #fff;
+}
+
+
+
+/* (((((((((((((((((((end products style))))))))))))))))))) */
+
+/* (((((((((((((((((((start shop style))))))))))))))))))) */
+/* #page-header {
+  background-image: url(1059170384-H-1024x700.webp);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+  color: #27643c;
+}
+
+#pagination {
+  text-align: center;
+}
+
+#pagination a {
+  text-decoration: none;
+  background-color: #27643c;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 600;
+}
+
+#pagination a i {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+.filter-btns {
+  text-align: center;
+}
+
+.filter-btn {
+  background-color: none;
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 50px;
+  font-size: 16px;
+  color: #d3d3d3;
+  font-weight: 600;
+  letter-spacing: 2px;
+  position: relative;
+  transform: all 0.2s;
+  background-color: #fff;
+}
+
+.filter-btn::after {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translatex(-50%);
+  height: 2px;
+  width: 0;
+  background-color: #27643c;
+  transform: all 0.2s;
+}
+
+.filter-btn:hover {
+  color: #27643c;
+}
+
+.filter-btn:hover::after {
+  width: 100%;
+} */
+
+/* ((((((((((((((((((((((((((end shop style)))))))))))))))))))))))))) */
+
+/* (((((((((((((((( start blog style)))))))))))))))) */
+#page-header.blog-header {
+  background-image: url(sunroom-ideas-chadduck-hillegas2018-06-hb-0352-copy-1641931166.jpg);
+
+}
+
+#blog {
+  padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding-bottom: 90px;
+}
+
+#blog .blog-img {
+  width: 50%;
+  margin-right: 40px;
+}
+
+#blog img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+#blog .blog-details {
+  width: 50%;
+}
+
+#blog .blog-details a {
+  text-decoration: none;
+  font-size: 11px;
+  color: #000;
+  font-weight: 700;
+  position: relative;
+  transition: 0.3s;
+}
+
+#blog .blog-details a::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  top: 4px;
+  right: -60px;
+}
+
+#blog .blog-details a:hover {
+  color: #088178;
+}
+
+#blog .blog-details a:hover::after {
+  background-color: #088178;
+}
+
+#blog .blog-box h1 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: #c9cbce;
+  z-index: -9;
+}
+
+/* ((((((((((((((((((((start style mai)))))))))))))))))))) */
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
+body {
+  width: 100%;
+}
+
+/* ==================== Small Banner  ======================= */
+#smallBanner {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+#smallBanner .bannerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(../imgMai/plant2.jpg);
+  min-width: 540px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#smallBanner .bannerBox2 {
+  background-image: url(../imgMai/woman.jpg);
+}
+
+#smallBanner h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#smallBanner h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#smallBanner span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#smallBanner .bannerBox:hover {
+  box-shadow: 10px 10px 54px rgba(106, 106, 109, 0.337);
+}
+
+#smallBanner .bannerBox:hover button {
+  background: #27643c;
+  border: 1px solid #27643c;
+}
+
+/* ================== Third BANNER ======================  */
+
+#banner3 .bannerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(../imgMai/lavander.jpg);
+  border-radius: 5px;
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 .bannerBox2 {
+  background-image: url(../imgMai/plant3.jpg);
+}
+
+#banner3 .bannerBox3 {
+  background-image: url(../imgMai/plant4.jpg);
+}
+
+#banner3 h2 {
+  margin-bottom: 20px;
+  background-color: #ffffff62;
+  border-radius: 4px;
+  color: #000000c8;
+  font-size: 22px;
+}
+
+#banner3 .bannerBox:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+/* (((((((((((((((((((((((((tasmeen style))))))))))))))))))))))))) */
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+
+footer .install .row img {
+  border: 1px solid #27643c;
+  border-radius: 6px;
+}
+
+footer .install img {
+  margin: 10px 0 15px 0;
+}
+
+
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
 }
