@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Page</title>
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+
+  <!--=============== ICONS ===============-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../dist/output.css" />
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <section id="header">
+    <!--======== NAVBAR ==========-->
+    <a href="#"><img src="../img/favicon.png" alt="" class="logo" /></a>
+    <!-- ((((((((((((((((((start navbar)))))))))))))))))) -->
+    <nav>
+      <ul id="navbar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a class="active" href="../pages/shop.html">Shop</a></li>
+        <li><a href="../pages/blog.html">Blog</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/cart.html">Contact</a></li>
+        <li>
+          <a id="lg-bag" href="../pages/userCart.html"><i class="far fa-shopping-bag"></i></a>
+        </li>
+        <a href="#" id="close"><i class="far fa-times"></i></a>
+      </ul>
+    </nav>
+    <!-- ((((((((((((((((((end navbar)))))))))))))))))) -->
+    <!-- ((((((((((((((((((start navbar image)))))))))))))))))) -->
+    <div id="mobile">
+
+      <!-- ((((((((((((((((((start navbar image icon)))))))))))))))))) -->
+      <div>
+        <a href="../pages/userCart.html"><i class="far fa-shopping-bag"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+      <!-- ((((((((((((((((((end navbar image icon)))))))))))))))))) -->
+      <!-- (((((((((((((((((start main section))))))))))))))))) -->
+      <main class="product">
+        <div class="container">
+          <div class="product_gallery">
+            <img src="" class="prduct_gallery-img" />
+          </div>
+          <div class="description">
+
+          </div>
+        </div>
+      </main>
+      <!-- (((((((((((((((((end main section))))))))))))))))) -->
+
+      <!-- (((((((((((((((((start feature section))))))))))))))))) -->
+      <section class="realated_product feature py-4">
+        <div class="container">
+          <div class="row">
+            <div class="feature_content">
+              <h2 class="secion-title"></h2>
+              <div class="row"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- (((((((((((((((((end feature section))))))))))))))))) -->
+    </div>
+    <!-- ((((((((((((((((((end navbar image)))))))))))))))))) -->
+  </section>
+  <!-- ================= product Section ============== -->
+  <section id="productDetails" class="section-p1">
+    <!-- ((((((((((((start products images)))))))))))) -->
+    <div class="single-pro-image">
+      <img src="../img/product1.png" width="100%" id="MainImg" alt="" />
+      <div class="small-img-group">
+        <!-- ((((((((((((((start product1)))))))))))))) -->
+        <div class="small-img-col">
+          <img src="../img/product2.png" width="100%" class="small-img" alt="" />
+        </div>
+        <!-- ((((((((((((((end product1)))))))))))))) -->
+        <!-- ((((((((((((((start product2)))))))))))))) -->
+        <div class="small-img-col">
+          <img src="../img/product3.png" width="100%" class="small-img" alt="" />
+        </div>
+        <!-- ((((((((((((((end product2)))))))))))))) -->
+        <!-- ((((((((((((((start product3)))))))))))))) -->
+        <div class="small-img-col">
+          <img src="../img/product4.png" width="100%" class="small-img" alt="" />
+        </div>
+        <!-- ((((((((((((((end product3)))))))))))))) -->
+        <!-- ((((((((((((((start product4)))))))))))))) -->
+        <div class="small-img-col">
+          <img src="../img/product5.png" width="100%" class="small-img" alt="" />
+        </div>
+        <!-- ((((((((((((((end product4)))))))))))))) -->
+      </div>
+    </div>
+    <!-- ((((((((((((end products images)))))))))))) -->
+    <!-- (((((((((((((((start product details))))))))))))))) -->
+    <div class="single-pro-details">
+      <h6>Plant</h6>
+      <h4>Aloe Vera Plant</h4>
+      <h2>$139.00</h2>
+      <select>
+        <option>small size</option>
+        <option>medium size</option>
+        <option>big size</option>
+      </select>
+      <input type="number" value="1" />
+      <button class="normal">Add to Cart</button>
+      <h4>Product Details</h4>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, aut
+        fugit suscipit ab nulla omnis enim eos et soluta alias veritatis,
+        totam nihil eveniet ex quasi reprehenderit vel? Accusantium,
+        commodi?</span>
+    </div>
+    <!-- (((((((((((((((end product details))))))))))))))) -->
+  </section>
+
+  <script>
+    // script for image change on click
+    var MainImg = document.getElementById("MainImg");
+    var makeSmall = document.getElementsByClassName("small-img");
+
+    makeSmall[0].onclick = function () {
+      MainImg.src = makeSmall[0].src;
+    };
+
+    makeSmall[1].onclick = function () {
+      MainImg.src = makeSmall[1].src;
+    };
+
+    makeSmall[2].onclick = function () {
+      MainImg.src = makeSmall[2].src;
+    };
+
+    makeSmall[3].onclick = function () {
+      MainImg.src = makeSmall[3].src;
+    };
+  </script>
+
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
