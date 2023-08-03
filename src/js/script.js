@@ -14,3 +14,6 @@ if(close){
         nav.classList.remove('active');
     })
 }
+const products=[
+    {id:1,name:"garden",price:35,category:{garden:"largeGarden",flour:"red",pot:"",name:"",class:""},rate:4}
+]

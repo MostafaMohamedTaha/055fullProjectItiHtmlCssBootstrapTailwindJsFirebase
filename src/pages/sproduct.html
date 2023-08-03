@@ -18,43 +18,46 @@
 
 <body>
   <!--==================== HEADER ====================-->
-<!-- (((((((((((((((((((start navbar)))))))))))))))))) -->
-<section class="bg-green-500 flex grid-cols-6 p-5 justify-around">
-  <!--======== NAVBAR ==========-->
-  <div class="flex justify-center col-span-2">
+  <!-- (((((((((((((((((((start navbar)))))))))))))))))) -->
+  <section class="bg-green-500 flex grid-cols-6 p-5 justify-around">
+    <!--======== NAVBAR ==========-->
+    <div class="flex justify-center col-span-2">
       <a href="../index.html"><img src="../img/favicon.png" alt="" class="text-4xl w-[1em]">
       </a>
       <span class="text-white hover:scale-105 ml-3 text-4xl">Go Green</span>
-  </div>
+    </div>
 
-  <!-- ((((((((((((((((start nav)))))))))))))))) -->
-  <nav class="flex col-span-4">
+    <!-- ((((((((((((((((start nav)))))))))))))))) -->
+    <nav class="flex col-span-4">
       <ul id="navbar" class=" flex justify-center list-none text-3xl text-white hover:text-3xl">
-          <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block"><a class="active"
-                  href="../index.html">Home</a></li>
-          <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block e"><a href="./shop.html">Shop</a>
-          </li>
-          <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block e"><a href="./blog.html">Blog</a>
-          </li>
-          <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block focusborder focus:underlinet"><a
-                  href="./about.html">About</a></li>
-          <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block e"><a
-                  href="./cart.html">Contact</a></li>
-          <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block e"><a id="lg-bag"
-                  href="./userCart.html"><i class="far fa-shopping-bag"></i></a></li>
-          <a href="#" id="close"><i class="far fa-times"></i></a>
+        <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block"><a class="active"
+            href="../index.html">Home</a></li>
+        <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block e"><a
+            href="./shop.html">Shop</a>
+        </li>
+        <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block e"><a
+            href="./blog.html">Blog</a>
+        </li>
+        <li
+          class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block focusborder focus:underlinet">
+          <a href="./about.html">About</a></li>
+        <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block e"><a
+            href="./cart.html">Contact</a></li>
+        <li class="hover:scale-110 hover:text-lime-50 focus:text-lime-100  mx-4 hidden md:block e"><a id="lg-bag"
+            href="./userCart.html"><i class="far fa-shopping-bag"></i></a></li>
+        <a href="#" id="close"><i class="far fa-times"></i></a>
       </ul>
-  </nav>
-  <!-- ((((((((((((((((end nav)))))))))))))))) -->
-  <!-- ((((((((((((((((start mobileIcon)))))))))))))))) -->
+    </nav>
+    <!-- ((((((((((((((((end nav)))))))))))))))) -->
+    <!-- ((((((((((((((((start mobileIcon)))))))))))))))) -->
 
-  <div id="mobile">
+    <div id="mobile">
       <a href="./pages/cart.html"><i class="far fa-shopping-bag"></i></a>
       <i id="bar" class="fas fa-outdent"></i>
-  </div>
-  <!-- ((((((((((((((((end mobileIcon)))))))))))))))) -->
-</section>
-<!-- (((((((((((((((((((end navbar)))))))))))))))))) -->
+    </div>
+    <!-- ((((((((((((((((end mobileIcon)))))))))))))))) -->
+  </section>
+  <!-- (((((((((((((((((((end navbar)))))))))))))))))) -->
   <!-- ================= product Section ============== -->
   <section id="productDetails" class="section-p1">
     <!-- ((((((((((((start products images)))))))))))) -->
@@ -105,29 +108,112 @@
     <!-- (((((((((((((((end product details))))))))))))))) -->
   </section>
 
-  <script>
-    // script for image change on click
-    var MainImg = document.getElementById("MainImg");
-    var makeSmall = document.getElementsByClassName("small-img");
+  <!-- (((((((((start landing section))))))))) -->
 
-    makeSmall[0].onclick = function () {
-      MainImg.src = makeSmall[0].src;
-    };
 
-    makeSmall[1].onclick = function () {
-      MainImg.src = makeSmall[1].src;
-    };
+  <div
+    class=" bg-center bg-no-repeat bg-[url('../img/banershop.jpg')] bg-gray-500 bg-blend-multiply h-[30em] grid justify-center items-center">
+    <header class="text-5xl text-white capitalize">
+      <h2 class="text-center p-3 m-3">#Product Sale</h2>
+      <p> Save more with coupons & up to 70% off !</p>
+    </header>
+  </div>
 
-    makeSmall[2].onclick = function () {
-      MainImg.src = makeSmall[2].src;
-    };
+  <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+    <!-- (((((((((end landing section))))))))) -->
 
-    makeSmall[3].onclick = function () {
-      MainImg.src = makeSmall[3].src;
-    };
-  </script>
+    <!-- ((((((((((((((((((((( start footer ))))))))))))))))))))) -->
+    <footer class="section-p1 grid md:flex col-span-3 bg-slate-600 text-lime-50 text-3xl">
+      <!-- ((((((((((((((((((((( start contact us section  ))))))))))))))))))))) -->
+      <div class="col lg:col-span-1 col-span-2 text-3xl">
+        <img class="logo" src="" alt="">
+        <h4 class="text-4xl">Contact</h4>
+        <p class="text-3xl md:text-2xl"><strong>Address:</strong> Taha Hussein St.El Minia</p>
+        <p class="text-3xl md:text-2xl"><strong>Phone:</strong> +201028249977 </p>
+        <p class="text-3xl md:text-2xl"><strong>Hours:</strong> 10:00 - 22:00, Sat - Thurs</p>
+        <div class="follow">
+          <h4 class="text-3xl md:text-2xl">Follow us</h4>
+          <div>
+            <i class="fab fa-facebook-square m-2"></i>
+            <i class="fab fa-twitter m-2" class=""></i>
+            <i class="fab fa-instagram m-2" class=""></i>
+            <i class="fab fa-pinterest-p  m-2" class=""></i>
+            <i class="fab fa-youtube m-2" class=""></i>
+          </div>
+        </div>
+      </div>
+      <!-- ((((((((((((((((((((( end contact us section))))))))))))))))))))) -->
 
-  <script src="../js/script.js"></script>
+
+      <!-- ((((((((((((((((((((( start about section ))))))))))))))))))))) -->
+      <div class="col lg:col-span-1 col-span-2">
+        <h4 class="text-4xl">About</h4>
+        <a class="text-white text-3xl md:text-2xl" href="#">About us</a>
+        <a class="text-white text-3xl md:text-2xl" href="#">Delivery Information</a>
+        <a class="text-white text-3xl md:text-2xl" href="#">Privacy Policy</a>
+        <a class="text-white text-3xl md:text-2xl" href="#">Terms & conditions</a>
+        <a class="text-white text-3xl md:text-2xl" href="#">Contact us</a>
+      </div>
+      <!-- ((((((((((((((((((((( end about section ))))))))))))))))))))) -->
+
+
+      <!-- ((((((((((((((((((((( start my account section ))))))))))))))))))))) -->
+      <div class="col lg:col-span-1 col-span-2">
+        <h4 class="text-4xl">My Account</h4>
+        <a class="text-white text-3xl md:text-2xl" href="#">Sign In</a>
+        <a class="text-white text-3xl md:text-2xl" href="#">View Cart</a>
+        <a class="text-white text-3xl md:text-2xl" href="#">My Wishlist</a>
+        <a class="text-white text-3xl md:text-2xl" href="#">Track My Order</a>
+        <a class="text-white text-3xl md:text-2xl" href="#">Help</a>
+      </div>
+      <!-- ((((((((((((((((((((( end my account section ))))))))))))))))))))) -->
+
+
+      <!-- ((((((((((((((((((((( start install and payment section ))))))))))))))))))))) -->
+      <div class="col install">
+        <h4 class="text-4xl"> Install App</h4>
+        <p class="text-3xl md:text-2xl">From App Store or Google Play</p>
+        <div class="row">
+          <img src="../imgTsm/pay/app.jpg" alt="">
+          <img src="../imgTsm/pay/play.jpg" alt="">
+        </div>
+        <p class="text-3xl md:text-2xl">Secured Payment Gateways</p>
+        <img src="../imgTsm/pay/pay.png" alt="">
+      </div>
+      <!-- ((((((((((((((((((((( end install and payment section ))))))))))))))))))))) -->
+
+
+      <!-- ((((((((((((((((((((( start copy right section  ))))))))))))))))))))) -->
+      <div class="copyright">
+        <p class="hidden md:block">© 2023, .Net G2 - HTML CSS JS Ecommerce Project</p>
+      </div>
+      <!-- ((((((((((((((((((((( end copy right section ))))))))))))))))))))) -->
+    </footer>
+    <!-- ((((((((((((((((end footer)))))))))))))))) -->
+
+    <script>
+      // script for image change on click
+      var MainImg = document.getElementById("MainImg");
+      var makeSmall = document.getElementsByClassName("small-img");
+
+      makeSmall[0].onclick = function () {
+        MainImg.src = makeSmall[0].src;
+      };
+
+      makeSmall[1].onclick = function () {
+        MainImg.src = makeSmall[1].src;
+      };
+
+      makeSmall[2].onclick = function () {
+        MainImg.src = makeSmall[2].src;
+      };
+
+      makeSmall[3].onclick = function () {
+        MainImg.src = makeSmall[3].src;
+      };
+    </script>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
