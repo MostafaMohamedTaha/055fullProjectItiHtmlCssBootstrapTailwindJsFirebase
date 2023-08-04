@@ -162,18 +162,19 @@ if (btns) {
 if (root) {
     displayItems = (item) => {
         root.innerHTML = item.map(e => {
-            const { img, title, price ,category} = e
-            return (
-            `    <section id="product1" class="section-p1 flex justify-center mt-7">
+            const { img, title, price ,category,rate} = e
 
-            <div class="Pro-container flex justify-center">
+            return (
+            `<section id="product1" class="section-p1 grid justify-center mt-7 col-span-1">
+
+            <div class="Pro-container">
                 <!-- ((((((((((((((((start product1)))))))))))))))) -->
                 <div class="pro">
                     <img src="${e.img}" alt="" class="rounded-2xl mx-auto">
                     <div class="des">
-                        <span>${e.category.name}</span>
+                        <span class="text-3xl capitalize">${e.category.type}</span>
                         <h5>${e.name}</h5>
-
+                        
                         <div class="star">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
