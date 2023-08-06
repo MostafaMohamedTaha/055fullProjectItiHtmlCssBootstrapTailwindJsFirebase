@@ -1074,6 +1074,18 @@ input:checked + .toggle-bg {
   top: 0px;
 }
 
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1118,6 +1130,16 @@ input:checked + .toggle-bg {
   margin: 1.25rem;
 }
 
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-\[2em\] {
   margin-left: 2em;
   margin-right: 2em;
@@ -1126,6 +1148,11 @@ input:checked + .toggle-bg {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .my-4 {
@@ -1198,6 +1225,30 @@ input:checked + .toggle-bg {
   margin-top: 3em;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1234,6 +1285,10 @@ input:checked + .toggle-bg {
   height: 2.5rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .h-4 {
   height: 1rem;
 }
@@ -1262,12 +1317,24 @@ input:checked + .toggle-bg {
   height: 30em;
 }
 
+.h-\[35em\] {
+  height: 35em;
+}
+
+.h-\[3em\] {
+  height: 3em;
+}
+
 .h-\[6em\] {
   height: 6em;
 }
 
 .h-auto {
   height: auto;
+}
+
+.max-h-\[15em\] {
+  max-height: 15em;
 }
 
 .w-1\/2 {
@@ -1278,12 +1345,20 @@ input:checked + .toggle-bg {
   width: 2.5rem;
 }
 
+.w-2 {
+  width: 0.5rem;
+}
+
 .w-4 {
   width: 1rem;
 }
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .w-64 {
@@ -1306,8 +1381,16 @@ input:checked + .toggle-bg {
   width: 80%;
 }
 
+.w-\[8em\] {
+  width: 8em;
+}
+
 .w-full {
   width: 100%;
+}
+
+.max-w-\[128px\] {
+  max-width: 128px;
 }
 
 .max-w-full {
@@ -1330,8 +1413,8 @@ input:checked + .toggle-bg {
   flex-shrink: 1;
 }
 
-.grow {
-  flex-grow: 1;
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 .-translate-x-full {
@@ -1594,6 +1677,11 @@ input:checked + .toggle-bg {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
+.bg-green-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(188 240 218 / var(--tw-bg-opacity));
+}
+
 .bg-green-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(14 159 110 / var(--tw-bg-opacity));
@@ -1667,6 +1755,11 @@ input:checked + .toggle-bg {
   padding: 1rem;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1715,11 +1808,6 @@ input:checked + .toggle-bg {
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-}
-
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
 }
 
 .py-3 {
@@ -1889,11 +1977,6 @@ input:checked + .toggle-bg {
   color: rgb(250 202 21 / var(--tw-text-opacity));
 }
 
-.text-gray-100 {
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
-}
-
 .opacity-0 {
   opacity: 0;
 }
@@ -2005,6 +2088,11 @@ input:checked + .toggle-bg {
 .hover\:bg-green-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(132 225 188 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-green-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 196 141 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-green-800:hover {
@@ -2212,11 +2300,6 @@ input:checked + .toggle-bg {
   background-color: rgb(4 108 78 / var(--tw-bg-opacity));
 }
 
-:is(.dark .dark\:hover\:bg-red-700:hover) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(200 30 30 / var(--tw-bg-opacity));
-}
-
 :is(.dark .dark\:hover\:text-blue-500:hover) {
   --tw-text-opacity: 1;
   color: rgb(63 131 248 / var(--tw-text-opacity));
@@ -2235,6 +2318,11 @@ input:checked + .toggle-bg {
 :is(.dark .dark\:focus\:ring-gray-600:focus) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(75 85 99 / var(--tw-ring-opacity));
+}
+
+:is(.dark .dark\:focus\:ring-gray-800:focus) {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(31 41 55 / var(--tw-ring-opacity));
 }
 
 :is(.dark .dark\:focus\:ring-green-800:focus) {
@@ -2325,10 +2413,5 @@ input:checked + .toggle-bg {
 @media (min-width: 1024px) {
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
-  }
-
-  .lg\:py-56 {
-    padding-top: 14rem;
-    padding-bottom: 14rem;
   }
 }
