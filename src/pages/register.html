@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>login screen</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body class="dark:bg-slate-600 bg-gray-100">
+
+        
+        <section class=" bg-gray-100 dark:bg-slate-600 min-h-screen flex 
+        items-center justify-center ">
+        <!-- login container  -->
+        <div class="bg-gray-200 dark:bg-slate-300 flex rounded-2xl shadow-lg max-w-3xl">
+            <!-- form  -->
+            <section class="ml-3 mt-5">
+                <img src="./image/moon.svg" alt="moon" id="moon" class="moon w-6 h-6 ">
+                <img src="./image/sun.svg" alt="moon" id="sun"  class="sun w-6  h-6 ">
+            </section>
+            <div class="sm:w-1/2 pr-8 pl-6">
+                <h2 class="font-bold text-2xl text-blue-500 mt-3">Sign Up</h2>
+
+                <!-- form input  -->
+                <form action="user.html" class="flex flex-col gap-4">
+                    <input type="text" name="username" class="p-2 mt-8 border rounded-xl"
+                        placeholder="Enter Your username">
+                    <input type="email" name="email" class="p-2 border rounded-xl"
+                        placeholder="Enter Your Email">
+                    <div class="relative">
+                        <input type="password" name="password" id="password" class="p-2 border rounded-xl w-full"
+                            placeholder="Enter Your password ">
+                        <img src="./image/hide.svg" alt="" id="eyeShowPassword" class="absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer w-6 h-6">
+
+                    </div>
+                    <div class="relative">
+                        <input type="password" name="confirmPassword" id="confirmPassword" class="p-2 border rounded-xl w-full"
+                            placeholder="Re-Enter Your password ">
+                        <img src="./image/hide.svg" alt="" id="eyeShowConfirm" class="absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer w-6 h-6">
+
+                    </div>
+                    <div class="flex">
+                        <input type="checkbox" name="remember" id="remember" >
+                        <label for="remember" class="ml-3 text-slate-500">remember me</label>
+                    </div>
+                    <button
+                        class="bg-blue-500 text-white py-2 rounded-xl w-full hover:scale-110 duration-300">Sign Up</button>
+                </form>
+                <div class="mt-8 grid grid-cols-3 items-center text-gray-500">
+                    <hr class="border-gray-500">
+                    <p class="text-center text-sm">OR</p>
+                    <hr class="border-gray-500">
+                </div>
+                <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=ar&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1610458733%3A1690517769317762"
+                    class="bg-white border py-2 w-full rounded-xl mt-5 flex justify-center items-center hover:scale-110 duration-300">
+
+                    <img src="./image/google.svg" alt="" class="w-6">
+
+                    <span class="ml-3">Sign Up With Google</span></a>
+                
+            </div>
+            <!-- image  -->
+            <div class="sm:block hidden  w-1/2 p-5">
+                <img class="rounded-3xl" src="http://www.picsum.photos/800/1400" alt="welcome" >
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="../js/main.js" async defer></script>
+</body>
+
+</html>

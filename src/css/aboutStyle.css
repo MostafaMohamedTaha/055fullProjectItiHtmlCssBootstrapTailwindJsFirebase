@@ -1,0 +1,155 @@
+
+/* ============================ Global Styles ==================================== */
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
+body {
+  width: 100%;
+}
+
+#box1 {
+  border: 1px solid #72ae8c;
+  background-image: url(../image/flower1.jpg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  font: bold 24pt Garamond;
+  color: rgba(255, 255, 255, 0.823);
+}
+
+/* ======================= Start About Us ========================== */
+#aboutUs {
+  display: flex;
+  align-items: center;
+}
+
+#aboutUs img {
+  width: 20%;
+  height: 40vh;
+  opacity: 0.7;
+}
+
+#aboutUs div {
+  padding-left: 40px;
+}
+
+#easyShoppingVideo {
+  text-align: center;
+}
+
+#easyShoppingVideo a {
+  color: #27643c;
+}
+
+#easyShoppingVideo a:hover {
+  color: #ae6c08bc;
+}
+
+#easyShoppingVideo .video {
+  width: 50%;
+  height: auto;
+  margin: 30px auto 0 auto;
+  opacity: 0.9;
+}
+
+#easyShoppingVideo .video video {
+  width: 50%;
+  height: 30%;
+  border-radius: 20px;
+}
+
+/* ================================= Start Features ====================================== */
+#feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#feature .featureBox {
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
+  border: 1px solid #27643c99;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+#feature .featureBox:hover {
+  box-shadow: 10px 10px 54px rgba(62, 221, 62, 0.221);
+}
+#feature .featureBox i {
+  width: 100%;
+  text-align: center;
+  color: #27643cbe;
+}
+
+#feature .featureBox:hover i {
+  color: #ae6c0894;
+}
+#feature .featureBox h6 {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #27643cbe;
+}
+#feature .featureBox:hover h6 {
+  background-color: #ae6c0894;
+}
+
+/* ========================= Media Query =============================== */
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 800px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
