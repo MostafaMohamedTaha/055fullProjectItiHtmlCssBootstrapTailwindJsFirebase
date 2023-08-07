@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"hide-files.files": [
+			"src/Mygithub/project/ref"
+		]
+	}
+}
